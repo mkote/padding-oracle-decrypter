@@ -1,5 +1,5 @@
 # pypoa - python padding oracle attack
-Tool for decrypting CBC encrypted ciphertexts using the padding oracle attack
+A python helper class for decrypting CBC encrypted ciphertexts using the [padding oracle attack](https://en.wikipedia.org/wiki/Padding_oracle_attack)
 
 ## Usage
 1. Implement a function that queries the oracle.
