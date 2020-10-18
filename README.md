@@ -1,4 +1,4 @@
-# padding-oracle-decrypter
+# pypoa - python padding oracle attack
 Tool for decrypting CBC encrypted ciphertexts using the padding oracle attack
 
 ```
