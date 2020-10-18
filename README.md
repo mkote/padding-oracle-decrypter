@@ -32,4 +32,7 @@ attack = OracleAttack(localOracle)
 decrypted = attack.execute(iv+cipherText)
  ```
 
-
+## Todo
+- Support different block sizes
+- Automatic detection of block size
+- Cleanup code.
