@@ -11,7 +11,7 @@ A python helper class for decrypting CBC encrypted ciphertexts using the [paddin
 import decrypt
 from decrypt import OracleAttack
 
-# Define an oracle function
+# Define an oracle function that takes in a ciphertext and queries the oracle whether the padding is valid.
 def localOracle(cipherText: bytearray):
     key = b"Sixteen byte key" # Secret
     iv = cipherText[:AES.block_size]
