@@ -36,3 +36,4 @@ decrypted = attack.execute(iv+cipherText)
 - Support different block sizes
 - Automatic detection of block size
 - Cleanup code.
+- Port tests to proper unit test framework
