@@ -17,7 +17,7 @@ def localOracle(cipherText: bytearray):
     iv = cipherText[:AES.block_size]
     ct = cipherText[AES.block_size:]
     try:
-        decrypt(ct, iv, key)
+        decrypt(ct, iv, key) # Query the oracle
         return True
     except:
         return False
