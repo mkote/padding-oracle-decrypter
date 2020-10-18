@@ -7,7 +7,6 @@ Tool for decrypting CBC encrypted ciphertexts using the padding oracle attack
 3. Instantiate OracleAttack class with the oracle function
 4. Call `attack.execute(ciphertext)` on the ciphertext to leak it.
 
-`OracleAttack`
 ```python
 import decrypt
 from decrypt import OracleAttack
