@@ -12,7 +12,6 @@ import decrypt
 from decrypt import OracleAttack
 
 # Define an oracle function
-
 def localOracle(cipherText: bytearray):
     key = b"Sixteen byte key" # Secret
     iv = cipherText[:AES.block_size]
@@ -24,8 +23,8 @@ def localOracle(cipherText: bytearray):
         return False
         
        
-data = b"secret"
-key = b"Sixteen byte key" 
+data = b"secret" # Secret
+key = b"Sixteen byte key" #Secret 
 iv = b"/kQ\x0bDZ\xc6F\xb2\xc4\x9c\xca\x8c\'!]"
 cipherText = b'VS&\xcb\xa7\xa5<\x14d\x00j\xe6\xb5\xba\xad\x08'
 ct = iv+cipherText
